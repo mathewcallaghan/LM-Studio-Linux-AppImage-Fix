@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Quit LM Studio
+Comment=Forcefully terminate all LM Studio processes
+Exec=/home/YOUR_USERNAME/lmstudio/scripts/lmstudio-shutdown
+Icon=/home/YOUR_USERNAME/lmstudio/icons/lm-studio-shutdown-icon.svg
+Terminal=false          # Keep terminal open to see output
+Type=Application
+Categories=Utility;

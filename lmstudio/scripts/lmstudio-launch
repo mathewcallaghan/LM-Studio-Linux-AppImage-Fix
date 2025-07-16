@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Define the expected subdirectory for AppImages relative to the user's home
+APPIMAGE_DIR="$HOME/lmstudio"
+
+# Path to LM Studio AppImage
+# Look for LM-Studio*.AppImage in the specified directory
+APPIMAGE=$(ls "$APPIMAGE_DIR"/LM-Studio*.AppImage 2>/dev/null | head -n 1)
+
+# Check if AppImage exists
+if [ -z "$APPIMAGE" ]; then
+    echo "Error: No LM-Studio AppImage found in '$APPIMAGE_DIR'."
+    echo "Please ensure the LM Studio AppImage is placed in this directory."
+    exit 1
+fi
+
+# Optional: unset LD_PRELOAD to avoid memory library conflicts
+unset LD_PRELOAD
+
+# Launch with --no-sandbox (required for Electron in AppImage)
+exec "$APPIMAGE" --no-sandbox

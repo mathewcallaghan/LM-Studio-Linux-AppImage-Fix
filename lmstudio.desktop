@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LM Studio
+Comment=Discover, download, and run local LLMs
+Exec=/home/YOUR_USERNAME/lmstudio/scripts/lmstudio-launch
+Icon=/home/YOUR_USERNAME/lmstudio/icons/lm-studio-icon.svg
+Terminal=false
+Type=Application
+Categories=Utility;Development;AI;

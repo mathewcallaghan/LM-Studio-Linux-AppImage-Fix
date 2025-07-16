@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Attempting to terminate all LM Studio processes..."
+pkill -f "lm-studio"
+
+if [ $? -eq 0 ]; then
+    echo "LM Studio processes successfully terminated."
+else
+    echo "No LM Studio processes found or an error occurred during termination."
+fi
