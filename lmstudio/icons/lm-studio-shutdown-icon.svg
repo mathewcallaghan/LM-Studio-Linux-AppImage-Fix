@@ -1,6 +1,6 @@
 <svg aria-label="LM Studio" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <linearGradient id="a" x2="64" y1="64" gradientTransform="matrix(.99225 0 0 .99225 .24806 -63.752)" gradientUnits="userSpaceOnUse">
+  <linearGradient id="a" x2="64" y1="64" gradientTransform="matrix(.86822 0 0 .86822 4.2171 -59.783)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#6c78ef" offset="0"/>
    <stop stop-color="#4f14be" offset="1"/>
   </linearGradient>
@@ -8,20 +8,13 @@
    <feGaussianBlur stdDeviation="52.305522"/>
   </filter>
  </defs>
- <g transform="matrix(.875 0 0 .875 4.0001 4)">
-  <rect transform="rotate(90)" x=".24806" y="-63.752" width="63.504" height="63.504" rx="14.338" ry="14.124" fill="url(#a)" stroke="#0e0623" stroke-opacity=".41791" stroke-width=".49612"/>
-  <g transform="matrix(2.1071,0,0,2.1071,6.7138,7.3502)" fill="#fff">
-   <path d="m2.84 2a1.2735 1.2735 0 1 0 0 2.547h14.107a1.2735 1.2735 0 1 0 0-2.547zm5.095 3.33a1.274 1.274 0 0 0 0 2.548h14.105a1.274 1.274 0 0 0 0-2.547h-14.105zm-4.311 4.605c0-0.704 0.57-1.274 1.274-1.274h14.106a1.274 1.274 0 0 1 0 2.547h-14.106c-0.703 0-1.274-0.57-1.274-1.273zm-2.351 2.253a1.2735 1.2735 0 1 0 0 2.547h14.107a1.274 1.274 0 0 0 0-2.547zm2.351 4.604c0-0.704 0.57-1.274 1.274-1.274h14.106a1.2735 1.2735 0 1 1 0 2.547h-14.106c-0.703 0-1.274-0.57-1.274-1.273zm9.405 2.057a1.2735 1.2735 0 1 0 0 2.547h9.698a1.2735 1.2735 0 1 0 0-2.547z" fill-opacity=".3"/>
-   <path d="m2.84 2a1.2735 1.2735 0 1 0 0 2.547h10.287a1.274 1.274 0 0 0 0-2.547zm5.095 3.33a1.274 1.274 0 0 0 0 2.548h10.285a1.274 1.274 0 0 0 0-2.547h-10.285zm-4.311 4.605c0-0.704 0.57-1.274 1.274-1.274h10.286a1.2735 1.2735 0 0 1 0 2.547h-10.286c-0.703 0-1.274-0.57-1.274-1.273zm-2.351 2.253a1.2735 1.2735 0 1 0 0 2.547h10.287a1.274 1.274 0 0 0 0-2.547zm2.351 4.604c0-0.704 0.57-1.274 1.274-1.274h10.286a1.2735 1.2735 0 1 1 0 2.547h-10.286c-0.703 0-1.274-0.57-1.274-1.273zm9.405 2.057a1.2735 1.2735 0 1 0 0 2.547h5.78a1.2735 1.2735 0 1 0 0-2.547z"/>
-  </g>
-  <circle cx="32" cy="33.131" r="14.161" fill="#5e47d8" opacity=".73383" stroke-width=".031469"/>
-  <g transform="matrix(.031469 0 0 .031469 14.431 11.084)" fill="none" filter="url(#b)" stroke="#33177e" stroke-linecap="round" stroke-linejoin="round" stroke-width="120">
-   <path transform="rotate(-69.005)" d="m-5.899 772.94a450 450 0 0 1-368.23 442.51 450 450 0 0 1-502.05-281.68 450 450 0 0 1 185.76-544.88 450 450 0 0 1 569.57 83.651"/>
-   <path d="m558.28 689.17v-512.4"/>
-  </g>
-  <g transform="matrix(.031469 0 0 .031469 14.431 11.084)" fill="none" stroke="#ff0039" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".79314" stroke-width="120">
-   <path transform="rotate(-69.005)" d="m-5.899 772.94a450 450 0 0 1-368.23 442.51 450 450 0 0 1-502.05-281.68 450 450 0 0 1 185.76-544.88 450 450 0 0 1 569.57 83.651"/>
-   <path d="m558.28 689.17v-512.4"/>
-  </g>
+ <rect transform="rotate(90)" x="4.2171" y="-59.783" width="55.566" height="55.566" rx="12.546" ry="12.358" fill="url(#a)" stroke="#0e0623" stroke-opacity=".41791" stroke-width=".4341"/>
+ <g transform="matrix(.027535 0 0 .027535 16.627 13.698)" fill="none" filter="url(#b)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="156.31">
+  <path transform="rotate(-69.005)" d="m-5.899 772.94a450 450 0 0 1-368.23 442.51 450 450 0 0 1-502.05-281.68 450 450 0 0 1 185.76-544.88 450 450 0 0 1 569.57 83.651"/>
+  <path d="m558.28 689.17v-512.4"/>
+ </g>
+ <g transform="matrix(.027535 0 0 .027535 16.627 13.698)" fill="none" stroke="#ff0039" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".99887" stroke-width="120">
+  <path transform="rotate(-69.005)" d="m-5.899 772.94a450 450 0 0 1-368.23 442.51 450 450 0 0 1-502.05-281.68 450 450 0 0 1 185.76-544.88 450 450 0 0 1 569.57 83.651"/>
+  <path d="m558.28 689.17v-512.4"/>
  </g>
 </svg>
