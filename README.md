@@ -79,14 +79,24 @@ Create another new file, for example, at `~/lmstudio/scripts/lmstudio-shutdown`,
 ```bash
 #!/bin/bash
 
-echo "Attempting to terminate all LM Studio processes..."
-pkill -f "lm-studio"
+patterns=("lm-studio" ".lmstudio")
 
-if [ $? -eq 0 ]; then
-    echo "LM Studio processes successfully terminated."
-else
-    echo "No LM Studio processes found or an error occurred during termination."
-fi
+# Gracefully attempt to terminate all relevant processes
+for pattern in "${patterns[@]}"; do
+    pkill -f "$pattern"
+done
+
+# Wait briefly for graceful shutdown
+sleep 2
+
+# Force kill any remaining processes
+for pattern in "${patterns[@]}"; do
+    pids=$(pgrep -f "$pattern")
+    for pid in $pids; do
+        pkill -TERM -P "$pid" 2>/dev/null
+        kill -9 "$pid" 2>/dev/null
+    done
+done
 ```
 
 Make it executable:
