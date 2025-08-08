@@ -26,7 +26,7 @@ When closing the LM Studio AppImage on Linux (e.g., by clicking "Quit" in the ap
 Instead of relying on LM Studio's internal quit mechanism, we provide two dedicated scripts:
 
   * **Launch Script**: Uses `exec` to hand over control directly to the LM Studio AppImage, ensuring a clean launch.
-  * **Shutdown Script**: Uses `pkill -f "lm-studio"` to reliably find and terminate all processes associated with LM Studio. This script is run *after* you've closed the LM Studio GUI.
+  * **Shutdown Script**: Uses `pkill -f "lm-studio"` to reliably find and terminate all processes associated with LM Studio. This script is run *before* or *after* you've closed the LM Studio GUI.
 
 -----
 
